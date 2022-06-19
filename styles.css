@@ -18,6 +18,12 @@ canvas {
 	color: rgb(178, 16, 28);
 	}
 		
+.heading{
+	font-family: sans-serif;
+	font-size: 20pt;
+	color: lightpink;
+	}
+		
 			
 .a{
 	color: black;
@@ -35,7 +41,7 @@ canvas {
 }
 
 .centered {
-  top: 50%;
+  top: 20%;
   left: 50%;
   /* bring your own prefixes */
   transform: translate(-50%, -50%);
