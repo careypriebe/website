@@ -1,7 +1,7 @@
        
           $(function () {
   count = 0;
-  wordsArray = ["Scientist", "Engineer", "Artist", "Statistician", "Thinker", "Researcher", "Learning","Teacher"];
+  wordsArray = ["Scientist", "Engineer", "Artist", "Statistician", "Thinker", "Researcher", "Learning","Teacher","Mathematician"];
   setInterval(function () {
     count++;
     $("#word").fadeOut(300, function () {

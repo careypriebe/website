@@ -42,9 +42,7 @@ canvas {
 
 .centered {
   top: 20%;
-  left: 50%;
-  /* bring your own prefixes */
-  transform: translate(-50%, -50%);
+  left: 10%;
 }
 
 .top{
@@ -87,6 +85,15 @@ h2 {
 .ct-u-paddingTop40 {
     padding-top: 40px;
   }
+  
+  .ct-u-paddingTop60 {
+    padding-top: 60px;
+  }
+  
+  
+ .ct-u-paddingLeft40 {
+    padding-left: 40px;
+  } 
   
   .ct-u-size40 {
     font-size: 40px;
@@ -229,3 +236,4 @@ h2 {
     width: 100vw;
     height: auto;
 }
+
