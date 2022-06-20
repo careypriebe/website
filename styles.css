@@ -12,6 +12,12 @@ canvas {
     position: absolute;
 }
 
+
+.putimage{
+    position: right;
+}
+
+
 .head{
 	font-family: sans-serif;
 	font-size: 50pt;
@@ -24,6 +30,11 @@ canvas {
 	color: lightpink;
 	}
 		
+.featuredtext{
+	font-family: sans-serif;
+	font-size: 20pt;
+	color: green;
+	}		
 			
 .a{
 	color: black;
@@ -43,6 +54,12 @@ canvas {
 .centered {
   top: 20%;
   left: 10%;
+}
+
+
+.rightmost {
+  top: 20%;
+  right: 10%;
 }
 
 .top{
@@ -244,4 +261,16 @@ h2 {
 .img{
     width: 100vw;
     height: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
