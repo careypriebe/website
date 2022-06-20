@@ -110,6 +110,19 @@ h2 {
     padding-bottom: 7px;
   }
   
+  
+    .ct-section_header--type3 small {
+    color: rgb(178, 16, 28);
+    font-family: 'Lobster', cursive;
+    font-size: 58px;
+    line-height: .7;
+    display: block;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 7px;
+  }
+  
+  
   .ct-section_header--type2 span {
     font-family: 'Bebas Neue';
     font-size: 115px;
@@ -140,11 +153,7 @@ h2 {
     -webkit-transition: all 0.25s ease;
     transition: all 0.25s ease;
   }
-  
-  .created-by {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  }
-  
+
   .ct-u-marginTop60 {
     margin-top: 35px;
   }
@@ -236,4 +245,3 @@ h2 {
     width: 100vw;
     height: auto;
 }
-
