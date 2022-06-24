@@ -8,6 +8,13 @@ canvas {
   box-width: 50%;
 }
 
+.canvas2 {
+	canvas{
+  margin: 0;
+  height: 50%;
+}
+}
+
 .body{
     position: absolute;
 }
@@ -40,9 +47,20 @@ canvas {
 	color: black;
 	text-decoration: none;
 	}
+	
+	.aa{
+	color: white;
+	text-decoration: none;
+	}
 		
 .a:hover{
 	color: rgb(178, 16, 28);
+	text-decoration: none;
+	}
+
+
+.aa:hover{
+	color: goldenrod;
 	text-decoration: none;
 	}
 
@@ -314,7 +332,6 @@ h2 {
     right: 10px;
     text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
     z-index: 999;
     width: 88%;
     font-size: 1.1em;
